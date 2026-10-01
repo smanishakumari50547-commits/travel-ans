@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Wanderlearn – Travel. Learn. Experience.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav><div class="wrap">
+<a href="#home" class="logo">Wander<span>learn</span></a>
+<button class="burger" id="burger" aria-label="Menu">☰</button>
+<div class="links" id="links">
+<a href="#home" data-p="home">Home</a><a href="#explore" data-p="explore">Explore</a><a href="#destinations" data-p="destinations">Destinations</a><a href="#about" data-p="about">About</a><a href="#profile" data-p="profile">Profile</a>
+<button class="btn" id="loginBtn">Login</button></div>
+</div></nav>
+<main id="app"></main>
+<footer><div class="wrap">
+<div><div class="logo" style="color:#ffc89c">Wanderlearn</div><p style="opacity:.8;max-width:300px">Learn a place from the people who call it home.</p><div class="soc"><span>ig</span><span>fb</span><span>x</span><span>yt</span></div></div>
+<div><b>Explore</b><a href="#explore">All experiences</a><a href="#destinations">Destinations</a><a href="#about">How it works</a></div>
+<div><b>Company</b><a href="#about">About us</a><a href="#about">Become a host</a><a href="#about">Careers</a></div>
+<div><b>Support</b><a href="#about">Help center</a><a href="#about">Safety</a><a href="#about">Contact</a></div>
+</div><div class="copy">© 2026 Wanderlearn. Made with ♥ for curious travelers.</div></footer>
+
+<div class="modal" id="modal"><div class="box">
+<h3>Welcome back</h3><p class="meta">Log in to save and book experiences.</p>
+<label>Email</label><input id="em" type="email" placeholder="you@example.com"><div class="err" id="e1"></div>
+<label>Password</label><input id="pw" type="password" placeholder="At least 6 characters"><div class="err" id="e2"></div>
+<button class="btn" id="doLogin" style="width:100%">Log in</button>
+<button class="btn o" id="closeM" style="width:100%;margin-top:8px">Cancel</button>
+</div></div>
+<div class="toast" id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
